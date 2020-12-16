@@ -352,7 +352,12 @@
             }
         }
 
-        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+        @font-face {
+            font-family: 'Libre Baskerville';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Libre Baskerville'), local('Libre Baskerville'), url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+        }
 
         @font-face {
             font-family: 'ITC-NewBaskervilleStd-BoldIt';
@@ -444,7 +449,8 @@
                             color: #000000;
                             font-family: 'ITC-NewBaskervilleStd-BoldIt', 'Libre Baskerville', serif;
                             max-width: 520px;
-                            text-align: center;">
+                            text-align: center;
+                            font-style: italic;">
                             Ecooking is for everyone - regardless of skin type, gender or age.
                         </h5>
                     </td>
